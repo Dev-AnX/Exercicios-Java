@@ -1,3 +1,5 @@
+package com.exerciciosjava.tiposprimitivos;
+
 public class PerfilUsuario {
     public static void main(String[] args) {
         String nome = "Renan";

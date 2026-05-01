@@ -1,3 +1,5 @@
+package com.exerciciosjava.tiposprimitivos;
+
 public class CalculadoraArea {
     public static void main(String[] args) {
         double raio = 5.5D;

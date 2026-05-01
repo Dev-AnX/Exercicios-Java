@@ -1,3 +1,5 @@
+package com.exerciciosjava.tiposprimitivos;
+
 public class EstouroMemoria {
    public static void main(String[] args) {
                 int maxmemory = 2147483647;

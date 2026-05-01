@@ -1,3 +1,5 @@
+package com.exerciciosjava.tiposprimitivos;
+
 public class TiposPrimitivos1 {
     public static void main() {
         String nome = "Renan";

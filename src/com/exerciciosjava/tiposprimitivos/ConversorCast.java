@@ -1,3 +1,5 @@
+package com.exerciciosjava.tiposprimitivos;
+
 public class ConversorCast {
    public static void main(String[] args) {
         double cast = 9.99D;

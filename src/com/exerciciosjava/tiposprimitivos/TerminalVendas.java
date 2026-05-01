@@ -1,3 +1,5 @@
+package com.exerciciosjava.tiposprimitivos;
+
 public class TerminalVendas {
    public static void main(String[] args) {
         String produto1 = "Arroz 5kg";

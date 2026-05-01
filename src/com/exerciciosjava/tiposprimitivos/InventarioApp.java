@@ -1,3 +1,5 @@
+package com.exerciciosjava.tiposprimitivos;
+
 public class InventarioApp {
    public static void main(String[] args) {
         long idLote = 10L;

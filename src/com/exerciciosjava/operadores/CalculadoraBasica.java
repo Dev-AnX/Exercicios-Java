@@ -19,5 +19,7 @@ public class CalculadoraBasica {
         System.out.println("O resultado da multiplicação de "+num1+" e "+num2+" é de: "+mult);
         System.out.println("O resultado da divisão de "+num1+" e "+num2+" é de: "+div);
         System.out.println("O resultado do resto da divisão de "+num1+" e "+num2+" é de: "+resto);
+
+        input.close();
     }
 }

@@ -14,5 +14,6 @@ public class ValidadorEstoque {
         double valorTotalEstoque = precoProduto * qtdProduto;
         boolean alertaReposicao = (qtdProduto < qtdMinima);
         System.out.println("Precisa repor estoque? "+alertaReposicao+" (True para sim e False para nao) Valor Total do Estoque: R$ "+valorTotalEstoque);
+        input.close();
     }
 }

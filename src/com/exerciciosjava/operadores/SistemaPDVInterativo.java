@@ -1,6 +1,6 @@
 package com.exerciciosjava.operadores;
 
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class SistemaPDVInterativo {
@@ -30,6 +30,7 @@ public class SistemaPDVInterativo {
         double precoProd2 = input.nextDouble();
 
         input.nextLine();
+        input.close();
 
         double subTotalProd1 = precoProd1 * quantidadeProd1;
         double subTotalProd2 = precoProd2 * quantidadeProd2;

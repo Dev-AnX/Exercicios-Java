@@ -12,7 +12,7 @@ public class ValidadorEstoque {
         System.out.println("Qual o preco do produto: ");
         double precoProduto = input.nextDouble();
         double valorTotalEstoque = precoProduto * qtdProduto;
-        boolean alertaReposicao = (qtdProduto < qtdMinima);
+        boolean alertaReposicao = (qtdProduto <= qtdMinima);
         System.out.println("Precisa repor estoque? "+alertaReposicao+" (True para sim e False para nao) Valor Total do Estoque: R$ "+valorTotalEstoque);
         input.close();
     }

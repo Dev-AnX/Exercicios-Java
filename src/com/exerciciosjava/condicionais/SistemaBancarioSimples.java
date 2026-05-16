@@ -35,7 +35,7 @@ public class SistemaBancarioSimples {
             case 3:
                 System.out.println("Digite quanto deseja sacar");
                 double sacar = sc.nextDouble();
-                if (sacar > 0 && sacar < saldoInicial) {
+                if (sacar > 0 && sacar <= saldoInicial) {
                     saldo = saldoInicial - sacar;
                     System.out.println("----------- Comprovante de Saque -----------");
                     System.out.println("Saldo Inicial: R$ " + saldoInicial);

@@ -18,9 +18,9 @@ public class CalculadoraIMC {
 
       if (imc < 18.5) {
           System.out.println(" abaixo do peso ideal");
-      } else if (imc >= 18.5 && imc <= 24.9) {
+      } else if (imc >= 18.5 && imc <= 25.0) {
           System.out.println(" no peso ideal");
-      } else if (imc >= 25 && imc <= 29.9) {
+      } else if (imc >= 25 && imc <= 30.0) {
           System.out.println(" com Sobrepeso");
       } else if (imc >= 30) {
           System.out.println(" com Obesidade");

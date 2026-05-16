@@ -25,6 +25,6 @@ public class CalculadoraIMC {
       } else if (imc >= 30) {
           System.out.println(" com Obesidade");
       }
-
+      input.close();
   }
 }

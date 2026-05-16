@@ -30,6 +30,6 @@ public class AprovacaoEmprestimo {
         } else {
             System.out.println("Idade fora da margem para aprovação.");
         }
-
+    sc.close();
     }
 }

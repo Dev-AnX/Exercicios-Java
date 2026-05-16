@@ -27,6 +27,6 @@ public class MenuFastFood {
                 System.out.println("Opção Inválida.");
                 break;
         }
-
+        sc.close();
     }
 }

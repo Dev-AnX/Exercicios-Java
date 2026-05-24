@@ -17,7 +17,7 @@ public class SeparadorDePares {
             if (numerosIniciais[i] % 2 == 0) {
                 pares[contPares] = numerosIniciais[i];
                 contPares++;
-            }  else {
+            } else {
                 impares[contImpares] = numerosIniciais[i];
                 contImpares++;
             }

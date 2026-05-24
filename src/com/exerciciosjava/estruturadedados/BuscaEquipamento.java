@@ -17,7 +17,7 @@ public class BuscaEquipamento {
         System.out.println("Digite o nome do equipamento: ");
         String nomeEquipamento = input.nextLine();
 
-        for (int i = 0; i<equipamentos.length; i++) {
+        for (int i = 0; i < equipamentos.length; i++) {
             if (equipamentos[i].equals(nomeEquipamento)) {
                 encontrado = true;
                 break;
